@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.App{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+form{
+    background-color: #b0c4de;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); 
+    scale: 0.9;
+}
+
+.input__items>input{
+    margin: 20px;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    width: 400px;
+}
+
+
+.input__items>label{
+        text-align: center;
+        width: 100px;
+}
+
+
+.input__items{
+    display: flex;
+    align-items: center;
+}
+
+textarea{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    resize: none;
+    outline: none;
+    font-size: 14px;
+}
+
+.checkbox{
+    margin-top: 5px;
+}
+
+.checkbox>input{
+    margin-left: 5px;
+    cursor: pointer;
+}
+fieldset{
+    margin-top: 5px;
+    width: 100%;
+}
+
+fieldset input{
+    cursor: pointer;
+}
+
+.select__box__label{
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+select {
+      font-family: 'Poppins', sans-serif;
+      margin-top: 5px;
+      padding: 5px;
+}
+
+.form__btn{
+        font-family: 'Poppins', sans-serif;
+        padding: 10px 0px;
+        margin-top: 10px;
+        width: 50%;
+        cursor: pointer;
+}
+
+
